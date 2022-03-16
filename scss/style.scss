@@ -11,6 +11,7 @@ body{
 	background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
+	height: 150vh;
 	
 header{
 	font-family: 'Cinzel', sans-serif;
@@ -27,15 +28,31 @@ header{
 	.marca:hover{
 		transform: scale(1.2);
 		transition: 1s;
-	}
+		color: black;
+
+		}
+
+
 
 	a{
 		margin-right: 10%;
+		color: black;
+
 	}
 	
 }
 .carousel-item{
     min-height: 280px;
+	.carousel-caption {
+		margin-top: 1%;
+		margin-left: 15%;
+		margin-right: 15%;
+		top: 0;
+		bottom: auto;
+	}
+	p{
+		margin-top: 10%;
+	}
 }
 img{
 	border-radius: 15pt;
@@ -43,14 +60,34 @@ img{
 
 .subtitulos{
 	color: black;
-	background-color: rgba(255, 255, 255, 0.452);
+	background-color: rgba(209, 209, 209, 0.849);
 	padding: 0%;
 	padding-bottom: 2%;
 	text-align: center;
 	text-shadow: 2pt black;
 	font-family: 'Cinzel', sans-serif;
-	font-size: large;
+	font-size: 15pt;
+	font-weight: 800;
+	border-radius: 20ex;
 
 
+}
+.subtitulos2{
+	color: black;
+	background-color: rgba(209, 209, 209, 0.849);
+	padding: 0%;
+	padding-bottom: 2%;
+	text-align: center;
+	text-shadow: 2pt black;
+	font-family: 'Cinzel', sans-serif;
+	font-size: 15pt;
+	font-weight: 800;
+	border-radius: 20ex;
+
+
+}
+#footer {
+	margin-top: 50%;
+	color:#000000;
 }
 }
