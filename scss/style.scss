@@ -12,6 +12,8 @@ body{
 	background-size: cover;
 	background-attachment: fixed;
 	height: 150vh;
+	margin:0;
+	padding:0;
 	
 header{
 	font-family: 'Cinzel', sans-serif;
@@ -172,6 +174,7 @@ background: linear-gradient(0deg, rgba(31, 31, 31, 0.379) 0%, rgb(129, 128, 128)
 	background: linear-gradient(0deg, rgb(165, 164, 164) 0%, rgba(255, 255, 255, 0.671) 100%);
 	box-shadow:  12pt 12pt 12pt 12pt white;
 	li{
+		font-size: 20pt;
 		.fa-facebook{
 			color: #180083;
 		  }
@@ -181,10 +184,12 @@ background: linear-gradient(0deg, rgba(31, 31, 31, 0.379) 0%, rgb(129, 128, 128)
   			background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
   			background-clip: text;
   			-webkit-background-clip: text;
+			  font-size: 20pt;
 		}
 		.fa-google-plus{
 			color: rgb(107, 3, 3);
-		} 
+		}
+
 
 		  }
 		  li:hover{
@@ -196,6 +201,30 @@ background: linear-gradient(0deg, rgba(31, 31, 31, 0.379) 0%, rgb(129, 128, 128)
 	}
 
 
-	
-	        
+	.portfolio-menu{
+		text-align:center;
+		.portfolio-menu ul li{
+			display:inline-block;
+			margin:0;
+			list-style:none;
+			padding:10px 15px;
+			cursor:pointer;
+			-webkit-transition:all 05s ease;
+			-moz-transition:all 05s ease;
+			-ms-transition:all 05s ease;
+			-o-transition:all 05s ease;
+			transition:all .5s ease;
+			
+			}
+			
+		}
+	}	
+.item{
+	/*width:303px;*/
+	float:left;
+	margin-bottom:10px;
+}
+.img-fluid{
+	box-shadow: 5px 5px 5px rgba(201, 164, 42, 0.644);
+	border-radius:  0%; 
 }

@@ -11,7 +11,9 @@ body {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  height: 150vh; }
+  height: 150vh;
+  margin: 0;
+  padding: 0; }
   body header {
     font-family: 'Cinzel', sans-serif;
     font-weight: bolder;
@@ -129,16 +131,41 @@ body {
     color: #000000;
     background: linear-gradient(0deg, #a5a4a4 0%, rgba(255, 255, 255, 0.671) 100%);
     box-shadow: 12pt 12pt 12pt 12pt white; }
-    body #footer li .fa-facebook {
-      color: #180083; }
-    body #footer li .fa-instagram {
-      color: transparent;
-      background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-      background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-      background-clip: text;
-      -webkit-background-clip: text; }
-    body #footer li .fa-google-plus {
-      color: #6b0303; }
+    body #footer li {
+      font-size: 20pt; }
+      body #footer li .fa-facebook {
+        color: #180083; }
+      body #footer li .fa-instagram {
+        color: transparent;
+        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+        background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        font-size: 20pt; }
+      body #footer li .fa-google-plus {
+        color: #6b0303; }
     body #footer li:hover {
       transform: scale(1.6);
       transition: 0.5s; }
+  body .portfolio-menu {
+    text-align: center; }
+    body .portfolio-menu .portfolio-menu ul li {
+      display: inline-block;
+      margin: 0;
+      list-style: none;
+      padding: 10px 15px;
+      cursor: pointer;
+      -webkit-transition: all 05s ease;
+      -moz-transition: all 05s ease;
+      -ms-transition: all 05s ease;
+      -o-transition: all 05s ease;
+      transition: all .5s ease; }
+
+.item {
+  /*width:303px;*/
+  float: left;
+  margin-bottom: 10px; }
+
+.img-fluid {
+  box-shadow: 5px 5px 5px rgba(201, 164, 42, 0.644);
+  border-radius: 0%; }
