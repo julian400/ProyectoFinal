@@ -192,3 +192,45 @@ body {
   .item h6 {
     font-size: 12pt;
     text-shadow: 1px 1px 1px black; } }
+
+/*Nueva Galeria*/
+.container2 .card2 {
+  max-width: 300px;
+  height: 215px;
+  margin: 30px 10px;
+  padding: 20px 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease-in-out;
+  background-color: white; }
+  .container2 .card2:hover {
+    height: 350px; }
+    .container2 .card2:hover .contenido {
+      visibility: visible;
+      opacity: 1;
+      margin-top: -40px;
+      transition-delay: 0.3s; }
+  .container2 .card2 .imgContainer {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    top: -50px;
+    left: 10px;
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2); }
+    .container2 .card2 .imgContainer img {
+      max-width: 100%;
+      border-radius: 4px; }
+  .container2 .card2 .contenido {
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+    color: #111;
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.3s ease-in-out; }
+
+@media (max-width: 330px) {
+  .container .card .imgContainer {
+    left: -2px; } }
