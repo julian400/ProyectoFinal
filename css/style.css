@@ -216,10 +216,17 @@ body {
     top: -50px;
     left: 10px;
     z-index: 1;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2); }
+    box-shadow: 0 5px 20px rgba(255, 255, 255, 0.2); }
+    .container2 .card2 .imgContainer :hover {
+      transform: scale(2.2);
+      transition: 0.3s ease-in-out;
+      padding-right: 20%;
+      transition-delay: 300ms; }
     .container2 .card2 .imgContainer img {
-      max-width: 100%;
-      border-radius: 4px; }
+      height: 175px;
+      width: 100%;
+      border-radius: 4px;
+      transition: 0.3s ease-in-out; }
   .container2 .card2 .contenido {
     position: relative;
     margin-top: -140px;
