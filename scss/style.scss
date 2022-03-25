@@ -220,7 +220,13 @@ background: linear-gradient(0deg, rgba(31, 31, 31, 0.379) 0%, rgb(129, 128, 128)
 			}
 			
 		}
+		.cajade{
+			background-color: rgba(255, 255, 255, 0.905);
+			color: rgb(0, 0, 0);
+		}
+
 	}	
+
 .item{
 	/*width:303px;*/
 	float:left;
@@ -324,3 +330,4 @@ $color_1: #111;
 		}
 	}
 }
+

@@ -163,6 +163,9 @@ body {
       -ms-transition: all 05s ease;
       -o-transition: all 05s ease;
       transition: all .5s ease; }
+  body .cajade {
+    background-color: rgba(255, 255, 255, 0.905);
+    color: black; }
 
 .item {
   /*width:303px;*/
