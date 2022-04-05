@@ -45,7 +45,21 @@ header{
 		color: black;
 
 	}
+	@media screen and (max-width:400px) {
+		.logo{
+			height: 5vh;
+			width: 5vh;
+		}
+	.marca{
+		font-size: 9pt;
+	}
+		
+	}
 }
+@media screen and (max-width:400px) {
+	.mob1{height: auto;
+		
+	}}
 .carousel-item{
     min-height: 280px;
 	.carousel-caption {
@@ -92,7 +106,6 @@ img{
 
 
 }
-.wrapper{margin:10vh}
 //post card styles
 
 .card{
@@ -103,11 +116,11 @@ img{
    box-shadow: 0 0 12px 0 rgba(0,0,0,0.2);
 
  @media (max-width: 768px) {
-  min-height:350px;
+	 height: auto;
 }
 
 @media (max-width: 420px) {
-  min-height:300px;
+	height: auto;
 }
 
  &.card-has-bg{
